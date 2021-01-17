@@ -12,6 +12,25 @@
          class="material-icons add-to-list shopping-list-icon">add_circle</i>
 
       <p class="card-text thumb-desc">{{recipe.description}}</p>
+
+      <div class="mb-5">
+        <h4>Ingredients</h4>
+        <ul>
+          <li *ngFor="let ingredient of recipe.ingredients" class="instructions-list">
+            {{ingredient.name}} - {{ingredient.amount}} {{ingredient.measurement}}
+          </li>
+        </ul>
+      </div>
+
+      <div class="mb-5">
+        <h4>Instructions</h4>
+        <ol>
+          <li class="card-text instructions-list" *ngFor="let instruction of recipe.instructions; index as i">
+            {{instruction}}
+          </li>
+        </ol>
+      </div>
+
       <div class="thumb-footer row justify-content-around">
         <div class="thumb-footer-time">
           <a href="#" class="card-link"><i class="material-icons">access_time</i>{{recipe.time}} min</a>

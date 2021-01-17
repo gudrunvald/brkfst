@@ -19,7 +19,7 @@ export class RecipesComponent implements OnInit {
     this.recipes = this.recipesService.getRecipes();
   }
 
-  onRemoveFromList(event) {
+  onRemoveFromList(event: any) {
     console.log('onRemoveFromList: ', event);
   }
 
