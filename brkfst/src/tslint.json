@@ -1,0 +1,24 @@
+{
+  "extends": "../tslint.json",
+  "tslint.enable": true,
+  "tslint.autoFixOnSave ": true,
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "app",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "app",
+      "kebab-case"
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape"
+    ]
+  }
+}

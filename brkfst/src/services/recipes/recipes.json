@@ -1,0 +1,393 @@
+[
+  {
+    "id": "1",
+    "name": "Steak",
+    "type": "Dinner",
+    "image": "./assets/images/steak.jpeg",
+    "description": "My grandmother’s plate and a simple pairing of fruit and cheese on a warm Summer afternoon.",
+    "time": "60",
+    "servings": 4,
+    "tried": false,
+    "inList": false,
+    "stars": 3,
+    "ingredients": [
+      {
+        "id": "1",
+        "name": "Steak, lean grass fed",
+        "amount": "2",
+        "measurement": "ounce"
+      },
+      {
+        "id": "2",
+        "name": "Salt",
+        "amount": "1",
+        "measurement": "tsp"
+      },
+      {
+        "id": "3",
+        "name": "Black pepper",
+        "amount": "1/4",
+        "measurement": "tsp"
+      },
+      {
+        "id": "4",
+        "name": "Olive oil",
+        "amount": "1",
+        "measurement": "tblsp"
+      },
+      {
+        "id": "5",
+        "name": "thyme",
+        "amount": "1",
+        "measurement": "sprig"
+      },
+      {
+        "id": "6",
+        "name": "garlic cloves",
+        "amount": "4",
+        "measurement": "cloves"
+      }
+    ],
+    "nutrition": [
+      {
+        "id": "1",
+        "name": "kcal",
+        "amount": "4",
+        "measurement": "kcal"
+      },
+      {
+        "id": "2",
+        "name": "fat",
+        "amount": "6",
+        "measurement": "mg"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Pasta",
+    "type": "Italian",
+    "image": "./assets/images/pasta.jpg",
+    "description": "Seafood pasta with shrimp and spinach.",
+    "time": 60,
+    "servings": 4,
+    "tried": true,
+    "inShoppingList": true,
+    "stars": 3,
+    "ingredients": [
+      {
+        "id": "1",
+        "name": "Ground beef",
+        "amount": 2,
+        "measurement": "pound"
+      },
+      {
+        "id": "2",
+        "name": "Salt",
+        "amount": 8,
+        "measurement": "tsp"
+      },
+      {
+        "id": "3",
+        "name": "Black pepper",
+        "amount": 0.5,
+        "measurement": "tsp"
+      },
+      {
+        "id": "4",
+        "name": "Olive oil",
+        "amount": 1,
+        "measurement": "tblsp"
+      },
+      {
+        "id": "5",
+        "name": "thyme",
+        "amount": 1,
+        "measurement": "sprig"
+      },
+      {
+        "id": "6",
+        "name": "garlic cloves",
+        "amount": 4,
+        "measurement": "cloves"
+      }
+    ],
+    "nutrition": [
+      {
+        "id": "1",
+        "name": "kcal",
+        "amount": 4,
+        "measurement": "kcal"
+      },
+      {
+        "id": "2",
+        "name": "fat",
+        "amount": 6,
+        "measurement": "mg"
+      }
+    ],
+    "instructions": [
+      "Boil"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Lasagna",
+    "type": "Dinner",
+    "image": "./assets/images/steak.jpeg",
+    "description": "My grandmother’s plate and a simple pairing of fruit and cheese on a warm Summer afternoon.",
+    "time": "60",
+    "servings": 4,
+    "tried": true,
+    "inShoppingList": true,
+    "stars": 3,
+    "ingredients": [
+      {
+        "id": "1",
+        "name": "Ground beef",
+        "amount": 2,
+        "measurement": "pound"
+      },
+      {
+        "id": "2",
+        "name": "Salt",
+        "amount": 8,
+        "measurement": "tsp"
+      },
+      {
+        "id": "3",
+        "name": "Black pepper",
+        "amount": 0.5,
+        "measurement": "tsp"
+      },
+      {
+        "id": "4",
+        "name": "Olive oil",
+        "amount": 1,
+        "measurement": "tblsp"
+      },
+      {
+        "id": "5",
+        "name": "thyme",
+        "amount": 1,
+        "measurement": "sprig"
+      },
+      {
+        "id": "6",
+        "name": "garlic cloves",
+        "amount": 4,
+        "measurement": "cloves"
+      }
+    ],
+    "nutrition": [
+      {
+        "id": "1",
+        "name": "kcal",
+        "amount": 4,
+        "measurement": "kcal"
+      },
+      {
+        "id": "2",
+        "name": "fat",
+        "amount": 6,
+        "measurement": "mg"
+      }
+    ],
+    "instructions": ["Boil"]
+  },
+  {
+    "id": "2",
+    "name": "Oatmeal",
+    "type": "Breakfast",
+    "description": "My grandmother’s plate and a simple pairing of fruit and cheese on a warm Summer afternoon.",
+    "time": "60",
+    "servings": 4,
+    "tried": false,
+    "inShoppingList": false,
+    "image": "./assets/images/oatmeal.jpg",
+    "stars": 3,
+    "ingredients": [
+      {
+        "id": "1",
+        "name": "Steak, lean grass fed",
+        "amount": 2,
+        "measurement": "ounce"
+      },
+      {
+        "id": "2",
+        "name": "Salt",
+        "amount": 1,
+        "measurement": "tsp"
+      },
+      {
+        "id": "3",
+        "name": "Black pepper",
+        "amount": 0.5,
+        "measurement": "tsp"
+      },
+      {
+        "id": "4",
+        "name": "Olive oil",
+        "amount": 1,
+        "measurement": "tblsp"
+      },
+      {
+        "id": "5",
+        "name": "thyme",
+        "amount": 1,
+        "measurement": "sprig"
+      },
+      {
+        "id": "6",
+        "name": "garlic cloves",
+        "amount": 4,
+        "measurement": "cloves"
+      }
+    ],
+    "nutrition": [
+      {
+        "id": "1",
+        "name": "kcal",
+        "amount": 4,
+        "measurement": "kcal"
+      },
+      {
+        "id": "2",
+        "name": "fat",
+        "amount": 6,
+        "measurement": "mg"
+      }
+    ],
+    "instructions": []
+  },
+  {
+    "id": "3",
+    "name": "Pizza",
+    "type": "Party food",
+    "image": "./assets/images/pizza.jpg",
+    "description": "This pizza is great for summer nights.",
+    "time": "60",
+    "servings": 4,
+    "tried": true,
+    "inShoppingList": true,
+    "stars": 3,
+    "ingredients": [
+      {
+        "id": "1",
+        "name": "Ground beef",
+        "amount": 2,
+        "measurement": "pound"
+      },
+      {
+        "id": "2",
+        "name": "Salt",
+        "amount": 8,
+        "measurement": "tsp"
+      },
+      {
+        "id": "3",
+        "name": "Black pepper",
+        "amount": 0.5,
+        "measurement": "tsp"
+      },
+      {
+        "id": "4",
+        "name": "Olive oil",
+        "amount": 1,
+        "measurement": "tblsp"
+      },
+      {
+        "id": "5",
+        "name": "thyme",
+        "amount": 1,
+        "measurement": "sprig"
+      },
+      {
+        "id": "6",
+        "name": "garlic cloves",
+        "amount": 4,
+        "measurement": "cloves"
+      }
+    ],
+    "nutrition": [
+      {
+        "id": "1",
+        "name": "kcal",
+        "amount": 4,
+        "measurement": "kcal"
+      },
+      {
+        "id": "2",
+        "name": "fat",
+        "amount": 6,
+        "measurement": "mg"
+      }
+    ],
+    "instructions": ["Boil"]
+  },
+  {
+    "id": "4",
+    "name": "Boozt",
+    "type": "Snack",
+    "image": "./assets/images/boozt.jpg",
+    "description": "Refreshing and nourishing smoothie.",
+    "time": "60",
+    "servings": 4,
+    "tried": true,
+    "inShoppingList": true,
+    "stars": 3,
+    "ingredients": [
+      {
+        "id": "1",
+        "name": "Ground beef",
+        "amount": 2,
+        "measurement": "pound"
+      },
+      {
+        "id": "2",
+        "name": "Salt",
+        "amount": 8,
+        "measurement": "tsp"
+      },
+      {
+        "id": "3",
+        "name": "Black pepper",
+        "amount": 0.5,
+        "measurement": "tsp"
+      },
+      {
+        "id": "4",
+        "name": "Olive oil",
+        "amount": 1,
+        "measurement": "tblsp"
+      },
+      {
+        "id": "5",
+        "name": "thyme",
+        "amount": 1,
+        "measurement": "sprig"
+      },
+      {
+        "id": "6",
+        "name": "garlic cloves",
+        "amount": 4,
+        "measurement": "cloves"
+      }
+    ],
+    "nutrition": [
+      {
+        "id": "1",
+        "name": "kcal",
+        "amount": 4,
+        "measurement": "kcal"
+      },
+      {
+        "id": "2",
+        "name": "fat",
+        "amount": 6,
+        "measurement": "mg"
+      }
+    ],
+    "instructions": ["Boil"]
+  }
+]

@@ -1,0 +1,14 @@
+/Users/Gudrun/Desktop/brkfst/bin/Debug/netcoreapp2.1/brkfst.deps.json
+/Users/Gudrun/Desktop/brkfst/bin/Debug/netcoreapp2.1/brkfst.runtimeconfig.json
+/Users/Gudrun/Desktop/brkfst/bin/Debug/netcoreapp2.1/brkfst.runtimeconfig.dev.json
+/Users/Gudrun/Desktop/brkfst/bin/Debug/netcoreapp2.1/brkfst.dll
+/Users/Gudrun/Desktop/brkfst/bin/Debug/netcoreapp2.1/brkfst.pdb
+/Users/Gudrun/Desktop/brkfst/obj/Debug/netcoreapp2.1/brkfst.csprojAssemblyReference.cache
+/Users/Gudrun/Desktop/brkfst/obj/Debug/netcoreapp2.1/brkfst.csproj.CoreCompileInputs.cache
+/Users/Gudrun/Desktop/brkfst/obj/Debug/netcoreapp2.1/brkfst.RazorAssemblyInfo.cache
+/Users/Gudrun/Desktop/brkfst/obj/Debug/netcoreapp2.1/brkfst.RazorAssemblyInfo.cs
+/Users/Gudrun/Desktop/brkfst/obj/Debug/netcoreapp2.1/brkfst.AssemblyInfoInputs.cache
+/Users/Gudrun/Desktop/brkfst/obj/Debug/netcoreapp2.1/brkfst.AssemblyInfo.cs
+/Users/Gudrun/Desktop/brkfst/obj/Debug/netcoreapp2.1/brkfst.RazorTargetAssemblyInfo.cache
+/Users/Gudrun/Desktop/brkfst/obj/Debug/netcoreapp2.1/brkfst.dll
+/Users/Gudrun/Desktop/brkfst/obj/Debug/netcoreapp2.1/brkfst.pdb

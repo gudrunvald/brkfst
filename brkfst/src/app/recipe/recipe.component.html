@@ -1,0 +1,30 @@
+<div *ngIf="recipe" class="container">
+  <div class="justify-content-center">
+    <div class="card-body">
+      <h5 class="card-title text-uppercase thumb-title">{{recipe.name}}</h5>
+      <h6 class="card-subtitle thumb-subtitle mb-4">{{recipe.type}}</h6>
+
+      <img class="card-img-top recipe-thumb mb-4" src="{{recipe.image}}" alt="{{recipe.name}}">
+
+      <i *ngIf="recipe.inShoppingList"
+         class="material-icons in-list shopping-list-icon">check_circle</i>
+      <i *ngIf="!recipe.inShoppingList"
+         class="material-icons add-to-list shopping-list-icon">add_circle</i>
+
+      <p class="card-text thumb-desc">{{recipe.description}}</p>
+      <div class="thumb-footer row justify-content-around">
+        <div class="thumb-footer-time">
+          <a href="#" class="card-link"><i class="material-icons">access_time</i>{{recipe.time}} min</a>
+        </div>
+        <div class="vl"></div>
+        <div class="thumb-footer-servings">
+          <a href="#" class="card-link"><i class="material-icons">account_circle</i>{{recipe.servings}} servings</a>
+        </div>
+        <div class="vl"></div>
+        <div class="thumb-footer-add-to-list">
+          <a href="#" class="card-link"><i class="material-icons">add</i>Add to list</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

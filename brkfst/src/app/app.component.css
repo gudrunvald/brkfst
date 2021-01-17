@@ -1,0 +1,121 @@
+/*Recipe card thumbnail*/
+
+.surface {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.10);
+  border: none;
+  border-radius: 2px;
+  line-height: 15.88px;
+  cursor: pointer;
+}
+
+.surface:hover {
+  box-shadow: 4px 6px 8px 0px rgba(0, 0, 0, 0.15)
+}
+
+.thumb-title {
+  font-family: BanglaSangamMN-Bold;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: .55rem;
+  color: rgba(0, 0, 0, 0.87);
+  letter-spacing: 0.4px;
+}
+
+.thumb-subtitle {
+  font-weight: normal;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.87);
+  letter-spacing: 0.7px;
+  text-align: left;
+  line-height: 15.88px;
+}
+
+.thumb-desc {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.60);
+  letter-spacing: 0.2px;
+  text-align: left;
+  line-height: 18.88px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.recipe-thumb {
+  object-fit: cover;
+  width: 288px;
+  height: 200px;
+  position: relative;
+  margin-left: -20px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+/*Icons that indicate weather a recipe is in the shopping list*/
+
+.in-list {
+  color: #EF5350;
+}
+
+.in-list:hover {
+  filter: brightness(85%);
+}
+
+.add-to-list {
+  color: rgba(0, 0, 0, 0.60);
+}
+
+.add-to-list:hover {
+  color: rgba(0, 0, 0, 0.70);
+}
+
+.shopping-list-icon {
+  cursor: pointer;
+  margin-right: 12px;
+}
+
+/*Recipe thumbnail footer*/
+
+.thumb-footer {
+  text-align: center;
+  justify-content: space-evenly;
+  /*border-top: 0.5px solid #C2C1C1;*/
+  object-fit: cover;
+  width: 288px;
+  margin-left: -20px;
+}
+
+.thumb-footer div {
+  padding-top: 10px;
+}
+
+.thumb-footer a {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.60);
+}
+
+.thumb-footer a:hover {
+  color: rgba(0, 0, 0, 0.80);
+}
+
+.thumb-footer-time {
+  text-align: center;
+}
+
+.vl {
+  /*border-left: 0.5px solid #C2C1C1;*/
+  /*object-fit: cover;*/
+}
+
+.thumb-footer-time {
+  margin-left: 12px;
+}
+
+.thumb-footer-add-to-list {
+  margin-right: 12px;
+}
+
+.thumb-footer-servings {
+  /*border-left: 0.5px solid #C2C1C1;*/
+  /*border-right: 0.5px solid #C2C1C1;*/
+}
