@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="044aadc9-d0d8-4b13-9c10-c50e3e38f8af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/brkfst.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/brkfst.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brkfst/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/brkfst/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brkfst/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/brkfst/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brkfst/src/app/components/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/brkfst/src/app/components/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brkfst/src/app/recipe/recipe.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/brkfst/src/app/recipe/recipe.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brkfst/src/app/recipe/recipe.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/brkfst/src/app/recipe/recipe.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brkfst/src/app/recipes/recipes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/brkfst/src/app/recipes/recipes.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brkfst/src/app/recipes/recipes.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/brkfst/src/app/recipes/recipes.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brkfst/src/services/recipes/recipe-model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/brkfst/src/services/recipes/recipe-model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brkfst/src/services/recipes/recipes.json" beforeDir="false" afterPath="$PROJECT_DIR$/brkfst/src/services/recipes/recipes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brkfst/src/services/recipes/recipes.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/brkfst/src/services/recipes/recipes.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tslib/CopyrightNotice.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tslib/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tslib/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tslib/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tslib/tslib.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tslib/tslib.es6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tslib/tslib.es6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tslib/tslib.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tslib/tslib.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,21 +63,10 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/brkfst/node_modules/typescript/lib" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="E2E Tests (brkfst-e2e)" type="JavaScriptTestRunnerProtractor">
       <config-file value="$PROJECT_DIR$/brkfst/e2e/protractor.conf.js" />
       <node-interpreter value="project" />
@@ -95,41 +105,47 @@
       <workItem from="1563395781382" duration="8005000" />
       <workItem from="1563404360412" duration="1056000" />
       <workItem from="1599235436672" duration="10482000" />
+      <workItem from="1647533207906" duration="8657000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/brkfst" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="880" y="365" width="800" height="714" key="#Intentions" timestamp="1599239870369">
+    <state width="2165" height="388" key="GridCell.Tab.0.bottom" timestamp="1647533316688">
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
-    <state x="880" y="365" width="800" height="714" key="#Intentions/0.23.2560.1353@0.23.2560.1353" timestamp="1599239870369" />
-    <state x="1010" y="526" key="#Notifications" timestamp="1599235606749">
+    <state width="2165" height="388" key="GridCell.Tab.0.bottom/0.23.2560.1353@0.23.2560.1353" timestamp="1647533316688" />
+    <state width="2165" height="388" key="GridCell.Tab.0.center" timestamp="1647533316687">
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
-    <state x="1010" y="526" key="#Notifications/0.23.2560.1353@0.23.2560.1353" timestamp="1599235606749" />
-    <state x="908" y="302" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1599240510740">
+    <state width="2165" height="388" key="GridCell.Tab.0.center/0.23.2560.1353@0.23.2560.1353" timestamp="1647533316687" />
+    <state width="2165" height="388" key="GridCell.Tab.0.left" timestamp="1647533316686">
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
-    <state x="908" y="302" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.2560.1353@0.23.2560.1353" timestamp="1599240510740" />
-    <state x="789" y="338" key="SettingsEditor" timestamp="1599245697803">
+    <state width="2165" height="388" key="GridCell.Tab.0.left/0.23.2560.1353@0.23.2560.1353" timestamp="1647533316686" />
+    <state width="2165" height="388" key="GridCell.Tab.0.right" timestamp="1647533316687">
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
-    <state x="789" y="338" key="SettingsEditor/0.23.2560.1353@0.23.2560.1353" timestamp="1599245697803" />
-    <state x="982" y="438" width="596" height="522" key="find.popup" timestamp="1599238924052">
+    <state width="2165" height="388" key="GridCell.Tab.0.right/0.23.2560.1353@0.23.2560.1353" timestamp="1647533316687" />
+    <state x="612" y="338" key="SettingsEditor" timestamp="1647533423564">
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
-    <state x="982" y="438" width="596" height="522" key="find.popup/0.23.2560.1353@0.23.2560.1353" timestamp="1599238924052" />
-    <state x="945" y="332" width="670" height="676" key="search.everywhere.popup" timestamp="1599245587479">
+    <state x="612" y="338" key="SettingsEditor/0.23.2560.1353@0.23.2560.1353" timestamp="1647533423564" />
+    <state x="1621" y="461" width="598" height="476" key="find.popup" timestamp="1647541999016">
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
-    <state x="945" y="332" width="670" height="676" key="search.everywhere.popup/0.23.2560.1353@0.23.2560.1353" timestamp="1599245587479" />
-    <state x="1010" y="539" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1599235669553">
+    <state x="1621" y="461" width="598" height="476" key="find.popup/0.23.2560.1353@0.23.2560.1353" timestamp="1647541999016" />
+    <state x="1513" y="332" width="670" height="676" key="search.everywhere.popup" timestamp="1647539789452">
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
-    <state x="1010" y="539" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.2560.1353@0.23.2560.1353" timestamp="1599235669553" />
+    <state x="1513" y="332" width="670" height="676" key="search.everywhere.popup/0.23.2560.1353@0.23.2560.1353" timestamp="1647539789452" />
   </component>
   <component name="masterDetails">
     <states>

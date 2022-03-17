@@ -4,14 +4,17 @@ export class RecipeModel {
   type: string;
   image: string;
   description: string;
-  time: string;
+  prepTime: string;
   servings: number;
   tried: boolean;
   inShoppingList: boolean;
-  stars: number;
+  rating: number;
   ingredients: IngredientsModel[];
   instructions: string[];
-  nutrition: NutritionsModel[];
+  nutritionalInfo: NutritionsModel[];
+  additionalInfo: string;
+  author: string;
+  externalLink: string;
 }
 
 export class IngredientsModel {
@@ -19,6 +22,7 @@ export class IngredientsModel {
   name: string;
   amount: number;
   measurement: string;
+  optional: boolean;
 }
 
 export class NutritionsModel {

@@ -21,7 +21,7 @@ import { RecipeComponent } from './recipe/recipe.component';
     FooterComponent,
     ShoppingListComponent,
     PageTitleComponent,
-    RecipeComponent,
+    RecipeComponent
   ],
   imports: [
     BrowserModule,

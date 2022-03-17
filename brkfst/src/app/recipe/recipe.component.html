@@ -1,8 +1,8 @@
 <div *ngIf="recipe" class="container">
   <div class="justify-content-center">
     <div class="card-body">
-      <h5 class="card-title text-uppercase thumb-title">{{recipe.name}}</h5>
-      <h6 class="card-subtitle thumb-subtitle mb-4">{{recipe.type}}</h6>
+      <h5 class="card-title text-uppercase thumb-title">{{recipe.title}}</h5>
+      <h6 class="card-subtitle thumb-subtitle mb-4">{{recipe.mealType}}</h6>
 
       <img class="card-img-top recipe-thumb mb-4" src="{{recipe.image}}" alt="{{recipe.name}}">
 
@@ -33,7 +33,7 @@
 
       <div class="thumb-footer row justify-content-around">
         <div class="thumb-footer-time">
-          <a href="#" class="card-link"><i class="material-icons">access_time</i>{{recipe.time}} min</a>
+          <a href="#" class="card-link"><i class="material-icons">access_time</i>{{recipe.prepTime}} min</a>
         </div>
         <div class="vl"></div>
         <div class="thumb-footer-servings">

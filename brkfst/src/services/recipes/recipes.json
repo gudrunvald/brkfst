@@ -5,26 +5,51 @@
     "type": "Dinner",
     "image": "./assets/images/steak.jpeg",
     "description": "My grandmother’s plate and a simple pairing of fruit and cheese on a warm Summer afternoon.",
-    "time": "60",
+    "prepTime": "60",
     "servings": 4,
     "tried": false,
     "inShoppingList": false,
-    "stars": 3,
-    "instructions": ["Sear them steaks", "Chop vegetables", "Pour wine"],
+    "rating": 3,
+    "instructions": [
+      "Sear them steaks",
+      "Chop vegetables",
+      "Pour wine"
+    ],
     "ingredients": [
       {
         "id": "1",
         "name": "Steak, lean grass fed",
         "amount": 2,
-        "measurement": "ounce"
+        "measurement": "ounce",
+        "optional": false
       }
     ],
-    "nutrition": [
+    "nutritionalInfo": [
       {
-        "id": "1",
-        "name": "kcal",
-        "amount": 4,
-        "measurement": "kcal"
+        "carbs": {
+          "amount": 25.3,
+          "type": "g"
+        },
+        "fat": {
+          "amount": 12.3,
+          "type": "g"
+        },
+        "fiber": {
+          "amount": 9.6,
+          "type": "mg"
+        },
+        "kcal": {
+          "amount": 381,
+          "type": "per serving"
+        },
+        "protein": {
+          "amount": 45.6,
+          "type": "g"
+        },
+        "sodium": {
+          "amount": 90,
+          "type": "mg"
+        }
       }
     ]
   },
@@ -34,11 +59,11 @@
     "type": "Italian",
     "image": "./assets/images/pasta.jpg",
     "description": "Seafood pasta with shrimp and spinach.",
-    "time": "60",
+    "prepTime": "60",
     "servings": 4,
     "tried": true,
     "inShoppingList": true,
-    "stars": 3,
+    "rating": 3,
     "ingredients": [
       {
         "id": "1",
@@ -101,11 +126,11 @@
     "type": "Dinner",
     "image": "./assets/images/steak.jpeg",
     "description": "My grandmother’s plate and a simple pairing of fruit and cheese on a warm Summer afternoon.",
-    "time": "60",
+    "prepTime": "60",
     "servings": 4,
     "tried": true,
     "inShoppingList": true,
-    "stars": 3,
+    "rating": 3,
     "ingredients": [
       {
         "id": "1",
@@ -158,19 +183,22 @@
         "measurement": "mg"
       }
     ],
-    "instructions": ["Boil", "Chop"]
+    "instructions": [
+      "Boil",
+      "Chop"
+    ]
   },
   {
     "id": "2",
     "name": "Oatmeal",
     "type": "Breakfast",
     "description": "My grandmother’s plate and a simple pairing of fruit and cheese on a warm Summer afternoon.",
-    "time": "60",
+    "prepTime": "60",
     "servings": 4,
     "tried": false,
     "inShoppingList": false,
     "image": "./assets/images/oatmeal.jpg",
-    "stars": 3,
+    "rating": 3,
     "ingredients": [
       {
         "id": "1",
@@ -231,11 +259,11 @@
     "type": "Party food",
     "image": "./assets/images/pizza.jpg",
     "description": "This pizza is great for summer nights.",
-    "time": "60",
+    "prepTime": "60",
     "servings": 4,
     "tried": true,
     "inShoppingList": true,
-    "stars": 3,
+    "rating": 3,
     "ingredients": [
       {
         "id": "1",
@@ -288,7 +316,9 @@
         "measurement": "mg"
       }
     ],
-    "instructions": ["Boil"]
+    "instructions": [
+      "Boil"
+    ]
   },
   {
     "id": "4",
@@ -296,11 +326,11 @@
     "type": "Snack",
     "image": "./assets/images/boozt.jpg",
     "description": "Refreshing and nourishing smoothie.",
-    "time": "60",
+    "prepTime": "60",
     "servings": 4,
     "tried": true,
     "inShoppingList": true,
-    "stars": 3,
+    "rating": 3,
     "ingredients": [
       {
         "id": "1",
@@ -353,6 +383,8 @@
         "measurement": "mg"
       }
     ],
-    "instructions": ["Boil"]
+    "instructions": [
+      "Boil"
+    ]
   }
 ]

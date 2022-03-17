@@ -1,5 +1,8 @@
-/*Recipe card thumbnail*/
+.card-body {
+  height: 450px;
+}
 
+/*Recipe card thumbnail*/
 .surface {
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.10);
   border: none;
@@ -38,6 +41,8 @@
   line-height: 18.88px;
   height: 60px;
   overflow: hidden;
+  position: absolute;
+  bottom: 70px;
 }
 
 .instructions-list {
@@ -57,10 +62,17 @@
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
+  position: absolute;
+  bottom: 125px;
+}
+
+.recipe-header {
+  /*border: 1px solid #EF5350;*/
+  position: relative;
+  width: 100%;
 }
 
 /*Icons that indicate weather a recipe is in the shopping list*/
-
 .in-list {
   color: #EF5350;
 }
@@ -80,10 +92,12 @@
 .shopping-list-icon {
   cursor: pointer;
   margin-right: 12px;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 /*Recipe thumbnail footer*/
-
 .thumb-footer {
   text-align: center;
   justify-content: space-evenly;
@@ -91,6 +105,8 @@
   object-fit: cover;
   width: 288px;
   margin-left: -20px;
+  position: absolute;
+  bottom: 20px;
 }
 
 .thumb-footer div {
